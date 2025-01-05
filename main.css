@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(221, 34, 34);
+    color: white;
+}
+header img {
+    width: 90px;
+    height: auto;
+}
+
+header h1 {
+    font-family: "Barrio", serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.container li {
+    display: inline;
+    padding: 10px;
+}
+
+.container li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+}
+
+.container li a:hover {
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.container article{
+    display: flex;
+    align-items: center;
+}
+
+.container article img{
+    margin-right: 15px;
+    width: 180px;
+    height: auto;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.container article p {
+    flex: 1;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-family: "Merriweather", serif;
+}
+
+article h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+article a{
+    color: white;
+    background-color: royalblue;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block   ;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+article a:hover{
+    background-color: darkblue;
+    text-decoration: underline;
+}
+
+#history h2,
+#cast h2,
+#cheering h2,
+#contact h2 {
+    background-color: grey;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: "Playwrite AU SA", serif;
+    border-radius: 10px;
+}
+#history,
+#cast,
+#cheering {
+    margin-bottom: 40px;
+}
+
+#social a img {
+    width: auto;
+    height: 24px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    display: inline;
+    justify-items: space-between;
+}
+
+#contact form input,
+textarea,
+button {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    padding: 8px;
+    width: 200px;
+    height: auto;
+}
+
+form button {
+    background-color: royalblue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+form textarea {
+    resize: none;
+}
+
+#social h3 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(114, 110, 110);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.contact-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contact-container form {
+    flex: 1;
+    margin-right: 5px; /* Espaço entre o formulário e o vídeo */
+}
+
+.contact-container video {
+    max-width: 70%;
+    height: auto;
+    flex: 1;
+    margin-left: 30px;
+}
